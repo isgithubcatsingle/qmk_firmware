@@ -15,15 +15,14 @@ Copyright 2015 Jack Humbert
 // #define EE_HANDS
 
 #define SPLIT_TRANSPORT_MIRROR  //need this for below
-// #define SPLIT_WPM_ENABLE
-// #define SPLIT_LAYER_STATE_ENABLE
+#define SPLIT_LAYER_STATE_ENABLE
 #define SPLIT_MODS_ENABLE
 #define SPLIT_OLED_ENABLE 
+#define SPLIT_WPM_ENABLE
 
 //#define TAPPING_FORCE_HOLD
 #define TAPPING_TERM 200
 
-#define COMBO_STRICT_TIMER
 
 #ifdef RGBLIGHT_ENABLE
     #undef RGBLIGHT_ANIMATIONS
@@ -67,4 +66,4 @@ Copyright 2015 Jack Humbert
 #define TAPPING_FORCE_HOLD
 #define IGNORE_MOD_TAP_INTERRUPT
 
-#define WPM_SAMPLE_SECONDS 2
+#define WPM_SAMPLE_SECONDS 3
