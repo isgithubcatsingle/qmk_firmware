@@ -49,3 +49,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #endif
 
 #define OLED_FONT_H "keyboards/crkbd/lib/glcdfont.c"
+
+
+
+#define ENCODERS_PAD_A { encoder1a, encoder2a }
+#define ENCODERS_PAD_B { encoder1b, encoder2b }
